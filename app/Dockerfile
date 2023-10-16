@@ -4,8 +4,8 @@ RUN apt update && apt upgrade && npm install -g @nestjs/cli
 
 WORKDIR /app
 
-COPY hackathon/package*.json .
+COPY ./init.sh /tmp
 
-RUN npm install
+CMD [ "bash", "/tmp/init.sh"]
 
-CMD [ "npm", "start" ]
+ENTRYPOINT [ "npm", "start" ]
