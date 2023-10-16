@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY init.sh /tmp
 
-CMD [ "bash", "/tmp/init.sh"]
+ENTRYPOINT [ "bash", "/tmp/init.sh"]
 
-ENTRYPOINT [ "npm", "start" ]
+CMD [ "npm", "start" ]
