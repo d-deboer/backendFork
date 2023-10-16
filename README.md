@@ -7,6 +7,6 @@
 
 # change the path inside the docket-compose.yml (the explanation it's inside the file)
 
-# run the with:
+# run with:
 
 # ``` docker-compose up ```
