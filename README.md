@@ -5,7 +5,7 @@
 # move to the app directory 
 # ```cd app```
 
-# change the path inside the docket-compose.yml (the explanation it's inside the file)
+# change the path inside the docket-compose.yml (the explanation is inside the file)
 
 # run with:
 
