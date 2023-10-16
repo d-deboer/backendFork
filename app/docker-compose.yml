@@ -7,6 +7,6 @@ services:
     image: nestapp:nest
     tty: true
     stdin_open: true
-  # change the $(pwd) with the result of the "pwd" command
+  # change the $(pwd) with the result of the "pwd" command (inside this directory)
     volumes:
-      - C:\Users\dmonf\OneDrive\Desktop\hackaton\app:/app
+      - $(pwd):/app
