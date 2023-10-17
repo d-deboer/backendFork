@@ -3,3 +3,9 @@ export class CreateHiringDto{
 	title: string;
 	email: string;
 }
+
+export class CreateApplyingDto{
+	name: string;
+	email: string;
+	
+}
