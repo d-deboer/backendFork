@@ -6,8 +6,8 @@ WORKDIR /app
 
 COPY init.sh /tmp
 
-ENTRYPOINT [ "bash", "/tmp/init.sh"]
+EXPOSE 3000
 
-EXPOSE 3333
+ENTRYPOINT [ "bash", "/tmp/init.sh"]
 
 CMD [ "npm", "start" ]
