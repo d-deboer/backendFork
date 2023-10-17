@@ -7,6 +7,8 @@ services:
     image: nestapp:nest
     tty: true
     stdin_open: true
+    ports:
+      -3333:3333
   # change the $(pwd) with the result of the "pwd" command executed inside the hackathon directory
     volumes:
       - $(pwd):/app
